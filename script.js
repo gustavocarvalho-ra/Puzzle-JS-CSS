@@ -1,3 +1,7 @@
+function drag(event) {
+  event.dataTransfer.setData('text', event.target.id);
+}
+
 onload = function() {
   let parent = document.getElementById('drag');
   let frag = document.createDocumentFragment();
