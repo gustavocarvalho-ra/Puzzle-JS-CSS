@@ -11,3 +11,20 @@ body {
   min-height: 100vh;
   background: #2f363e;
 }
+
+.drag {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 320px;
+  gap: 10;
+}
+
+.drag .dragBox {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: #0003;
+}
