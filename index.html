@@ -9,7 +9,7 @@
 <body>
   <div id="drag" class="drag">
     <div class="dragBox">
-      <div class="images" draggable="true" id="block1"
+      <div class="images" draggable="true" ondragstart="drag(event)" id="block1"
       style="--img:url(./src/1.png);">
       </div>
     </div>
@@ -56,15 +56,15 @@
   </div>
 
   <div class="board">
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
-    <div class="dropBox"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <div class="dropBox" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
   </div>
 
   <button class="reset" onClick="window.location.reload();">Reset Puzzle</button>
