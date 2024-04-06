@@ -19,7 +19,8 @@ body {
   align-items: center;
   flex-wrap: wrap;
   width: 320px;
-  gap: 10;
+  gap: 10px;
+  cursor: grab;
 }
 
 .drag .dragBox {
